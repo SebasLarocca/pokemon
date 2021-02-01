@@ -67,12 +67,12 @@ const   pikachu     = new Pokemon ( "Pikachu", {  "Tundershok": 11, "Quick Attac
         oshawott    = new Pokemon ( "oshawott", { "Water Gun": 15, "Takle": 5 }, 26);
         snivy       = new Pokemon ( "Snivy", {  "Mega Drain": 4, "Wrap": 14, "Thunderstruck": 10 }, 26);
 
-//const jugador1 = prompt("¿Cómo se llama el primer juagador?");
-//const jugador2 = prompt("¿Cómo se llama el segundo juagador?");
+const jugador1 = prompt("¿Cómo se llama el primer juagador?");
+const jugador2 = prompt("¿Cómo se llama el segundo juagador?");
 
 
-const   sebas = new Jugador ( "jugador1", pikachu, false );
-        pedro = new Jugador ( "jugador2", snivy, false );
+const   sebas = new Jugador ( jugador1, pikachu, false );
+        pedro = new Jugador ( jugador2, snivy, false );
 
 
 let jugadorActivo = jugadores[0];
